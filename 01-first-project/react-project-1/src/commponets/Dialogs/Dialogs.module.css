@@ -1,0 +1,57 @@
+/*.content{*/
+/*grid-area: content;*/
+/*background: white;*/
+/*}*/
+
+.dialogs{
+    display: flex;
+}
+.dialogs_items{
+    flex: 0 0 30%;
+    padding: 20px;
+}
+.dialogs_items{
+    border-right: 3px solid #000;
+}
+.messages{
+    flex: 1 0 auto;
+    padding: 20px;
+}
+.dialog{
+    font-size: 14px;
+    margin: 10px 0px;
+    color: #333333;
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    max-width: 100%;
+    background-color: #d3caff;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    transition: background-color 150ms;
+}
+.dialog_avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    margin-right: 15px;
+}
+.dialog a{
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dialog:hover,
+.dialog.active{
+    background-color: #8764da;
+}
+.dialog:hover a,
+.dialog.active a{
+    color: white;
+}
+.message{
+
+}

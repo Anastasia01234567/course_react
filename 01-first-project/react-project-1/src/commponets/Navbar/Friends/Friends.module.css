@@ -1,0 +1,28 @@
+.wrap_friends{
+    margin: 20px 0px;
+}
+.wrap_friends_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item_friend{
+    display: flex;
+    flex: 0 0 20%;
+    max-width: 20%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.item_friend .avatar_friend{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.item_friend .name_friend{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 5px;
+    font-weight: bold;
+}

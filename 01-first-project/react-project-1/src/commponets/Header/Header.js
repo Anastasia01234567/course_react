@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import clasess from './Header.module.css';
 
 let Header = ()=>{
     return(
-        <header className="header">
+        <header className={clasess.header}>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/505px-Apple_logo_black.svg.png" alt=""/>
         </header>
     )
