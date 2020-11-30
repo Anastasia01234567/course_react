@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {store} from  './redux/state'
+import DialogItem from "./commponets/Dialogs/Dialogs";
+import { addPost, updateNewPostText} from  './redux/state'
 import {BrowserRouter} from "react-router-dom";
 
 
-let rerenderEntireTree = (store) =>{
-    // debugger;
+export let rerenderEntreTree = (state) =>{
     ReactDOM.render(
         <React.StrictMode>
             <BrowserRouter>
-                < App
-                    appState ={store.getState()}
-                    dispatch = {store.dispatch.bind(store)}
-                    store = {store}
+                <App
+                    appState ={state}
+                    addPost={addPost}
+                    updateNewPostText = {updateNewPostText}
                 />
             </BrowserRouter>
         </React.StrictMode>,
@@ -23,8 +23,5 @@ let rerenderEntireTree = (store) =>{
     );
 }
 
-rerenderEntireTree(store);
-store.subscribe(rerenderEntireTree);
-window.store = store;
 
 serviceWorker.unregister();

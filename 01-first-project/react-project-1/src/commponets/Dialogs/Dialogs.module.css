@@ -55,3 +55,25 @@
 .message{
 
 }
+.button_send{
+    background-color:  #d3caff;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: background-color 150ms;
+    cursor: pointer;
+}
+.button_send:hover{
+    background-color:#8764da;
+    color: white;
+}
+.text_area_msg{
+    display: block;
+    width: 100%;
+    border: 1px solid #8764da;
+}
