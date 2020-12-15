@@ -1,18 +1,43 @@
 const UPDATE_MESSAGE_TEXT = 'UPDATE-MESSAGE-TEXT';
 const SEND_MESSAGE = 'SEND-MESSAGE';
 
-export const dialogsReducer = (state, action) => {
+let initialState ={
+    NewMessageText: '',
+    messages:
+        [
+            {id: 1, message: "He"},
+            {id: 2, message: "tet"},
+            {id: 3, message: "weqe"},
+            {id: 4, message: "qweqweHee"},
+        ],
+
+    dialogs:
+        [
+            {
+                id: 1,
+                name: "Nastya",
+                avatar: 'https://blog.promopult.ru/wp-content/uploads/2020/09/kak-uluchshit-profil-v-instagram-2.png'
+            },
+            {id: 2, name: "Sergey", avatar: 'https://hypeava.ru/uploads/posts/2018-05/1527186681_1.jpg'}
+        ]
+}
+
+export const dialogsReducer = (state = initialState, action) => {
     switch (action.type) {
-        case  UPDATE_MESSAGE_TEXT:
-            state.NewMessageText = action.body;
-            return state;
-        case SEND_MESSAGE:
+        case  UPDATE_MESSAGE_TEXT: {
+            return {
+                ...state,
+                NewMessageText : action.body
+            };
+        }
+        case SEND_MESSAGE: {
             let body = state.NewMessageText;
-            state.NewMessageText = '';
-            state.messages.push(
-                {id: 5, message: body}
-            )
-            return state;
+            return {
+                ...state,
+                NewMessageText : '',
+                messages: [...state.messages, {id: 5, message: body}]
+            };
+        }
         default:
             return state;
     }

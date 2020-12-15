@@ -12,6 +12,9 @@ let Navbar = (props)=>{
             <div className={`${cls.item}`}>
                 <NavLink to="/dialogs" activeClassName={cls.active}>Messages</NavLink>
             </div>
+            <div className={`${cls.item}`}>
+                <NavLink to="/users" activeClassName={cls.active}>Users</NavLink>
+            </div>
             <div className={cls.item}><a href="">News</a></div>
             <div className={cls.item}><a href="">Music</a></div>
             <div className={cls.item}><a href="">Settings</a></div>

@@ -2,30 +2,26 @@ import React from 'react';
 import cls from './Dialogs.module.css'
 import Message from "./Message/Message";
 import DialogItem from "./DialogItem/DialogItem";
-import {sendMessageCreateAction, updateMessageTextCreateAction} from "../../redux/dialogs-reducer";
 
 
 
 const Dialogs = (props) => {
-    let state = props.store.getState().dialogsPage;
     // debugger;
-    let diaologsElements = state.dialogs.map((dialog) => <DialogItem state={dialog} />);
+    let state = props.dialogsPage;
+    let diaologsElements = state.dialogs.map((dialog) => <DialogItem state={dialog} key={dialog.id}/>);
     let messagesElemnts = state.messages.map( message =>{
-      return  <Message message={message.message}/>
+      return  <Message message={message.message} key={message.id}/>
     });
     // console.log(messagesElemnts)
 
     let refTextArea = React.createRef();
     let onSendMessageClick = (event) =>{
-        props.store.dispatch(sendMessageCreateAction());
+        props.sendMessage()
     }
     let onUpdateMessageChange = (event) =>{
         const body =  event.target.value;
-        props.store.dispatch(updateMessageTextCreateAction(body))
+        props.updateMessage(body)
     }
-
-
-
 
     return (
         <div className="">
@@ -36,7 +32,6 @@ const Dialogs = (props) => {
                 </div>
                 <div className={cls.messages}>
                     {messagesElemnts}
-
                     <div>
                         <textarea className={cls.text_area_msg} ref={refTextArea} name="" id="" cols="30" rows="10" placeholder='Enter your  message'
                                   value={state.NewMessageText} onChange={onUpdateMessageChange}></textarea>

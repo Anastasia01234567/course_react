@@ -1,22 +1,20 @@
 import React from 'react'
 import cls from './MyPosts.module.css';
 import Post from './Post/Post'
-import {addPostCreateAction, updateNewPostTextCreateAction} from "../../../redux/profile-reducer";
+// import {addPostCreateAction, updateNewPostTextCreateAction} from "../../../redux/profile-reducer";
 
 let MyPosts = (props) => {
-
-    let postsElements = props.posts.map( post => <Post message={post.message} likesCount={post.likesCount}/>);
+// debugger;
+    let state = props.profilePage;
+    let postsElements = state.posts.map( post => <Post message={post.message} likesCount={post.likesCount}/>);
     let refElementTextArea = React.createRef();
-    let addPost=()=>{
-        let text = refElementTextArea.current.value,
-            action = addPostCreateAction();
-        props.dispatch(action)
+    let onAddPost=()=>{
+       props.addPost();
     }
 
-    let updateNewPostText = () =>{
-
-        let text = refElementTextArea.current.value;
-        props.dispatch(updateNewPostTextCreateAction(text));
+    let onUpdateNewPostText = (event) =>{
+        let text = event.target.value;
+        props.updateNewPostText(text);
     }
     return (
         <div>
@@ -24,9 +22,11 @@ let MyPosts = (props) => {
             <div className="">
                 {/*<form action="">*/}
                     <div>
-                        <textarea onChange={updateNewPostText} ref={refElementTextArea} name="" id="" cols="30" rows="10" value={props.newPostText}></textarea>
+                        <textarea className={cls.textarea} onChange={onUpdateNewPostText} ref={refElementTextArea} name="" id="" cols="30" rows="10" value={state.newPostText}></textarea>
                     </div>
-                    <button type="button" onClick={addPost}>Send</button>
+                <div className={cls.wrap_btn}>
+                    <button type="button" className={cls.btn_send} onClick={onAddPost}>Send</button>
+                </div>
                 {/*</form>*/}
             </div>
             <div className={cls.posts}>

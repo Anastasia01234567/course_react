@@ -60,7 +60,6 @@ export let store = {
         console.log('subscriber');
     },
     getState() {
-        // debugger;
         return this._state;
     },
     // addPost() {
@@ -75,8 +74,8 @@ export let store = {
     //     this._state.profilePage.newPostText = newPostText;
     //     this._callSubscriber();
     // },
-    subscribe(sibscribe) {
-        this._callSubscriber = sibscribe;
+    subscribe(observer) {
+        this._callSubscriber = observer;
     },
     dispatch(action) {
         // debugger

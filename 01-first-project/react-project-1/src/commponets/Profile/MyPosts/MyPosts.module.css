@@ -5,3 +5,31 @@
 .posts{
     margin: 20px 0px;
 }
+.wrap_btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn_send{
+    background-color:  #d3caff;
+    color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 35px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    transition: background-color 150ms;
+    cursor: pointer;
+}
+.btn_send:hover{
+    background-color:#8764da;
+    color: white;
+}
+.textarea{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #8764da;
+
+}

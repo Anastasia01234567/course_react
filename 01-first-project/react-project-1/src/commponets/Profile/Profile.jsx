@@ -2,17 +2,14 @@ import React from 'react';
 import cls from './Profile.module.css';
 import MyPosts from './MyPosts/MyPosts'
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
+import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
-let Profile = (props) => {
+let Profile = () => {
 
     return (
         <div className="">
             <ProfileInfo/>
-            <MyPosts
-                dispatch = {props.dispatch}
-                newPostText = {props.state.newPostText}
-                posts={props.state.posts}
-            />
+            <MyPostsContainer />
         </div>
     )
 }
