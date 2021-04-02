@@ -76,4 +76,5 @@
     display: block;
     width: 100%;
     border: 1px solid #8764da;
+    min-height: 120px;
 }

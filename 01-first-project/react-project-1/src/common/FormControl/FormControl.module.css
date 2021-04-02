@@ -1,0 +1,12 @@
+.formControl.error textarea{
+    border-color: red;
+}
+.formControl.error span{
+    color: red;
+}
+
+textarea{
+    min-height: 120px;
+    width: 100%;
+    display: block;
+}

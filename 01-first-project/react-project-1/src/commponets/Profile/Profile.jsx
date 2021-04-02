@@ -4,11 +4,10 @@ import MyPosts from './MyPosts/MyPosts'
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import MyPostsContainer from "./MyPosts/MyPostsContainer";
 
-let Profile = () => {
-
+let Profile = (props) => {
     return (
         <div className="">
-            <ProfileInfo/>
+            <ProfileInfo profile={props.profile} status={props.status}  updateUserStatus={props.updateUserStatus}/>
             <MyPostsContainer />
         </div>
     )

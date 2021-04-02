@@ -1,17 +1,3 @@
-.user{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    border: 2px solid #8764da;
-    border-radius: 30px;
-    padding: 20px;
-    margin: 20px 0px;
-}
-.photo{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-}
 .selectedPage{
     font-weight: bold;
     color: #8764da;
@@ -29,4 +15,7 @@
 }
 .pagination li span{
     font-size: 16px;
+}
+.pageNumber{
+    color: green;
 }

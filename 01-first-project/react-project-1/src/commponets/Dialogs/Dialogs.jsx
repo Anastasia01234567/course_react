@@ -2,6 +2,7 @@ import React from 'react';
 import cls from './Dialogs.module.css'
 import Message from "./Message/Message";
 import DialogItem from "./DialogItem/DialogItem";
+import AddMessageReduxForm from "./AddMessageForm";
 
 
 
@@ -14,15 +15,9 @@ const Dialogs = (props) => {
     });
     // console.log(messagesElemnts)
 
-    let refTextArea = React.createRef();
-    let onSendMessageClick = (event) =>{
-        props.sendMessage()
+    let addNewMessage = (values)=>{
+        props.sendMessage(values.newMessageBody)
     }
-    let onUpdateMessageChange = (event) =>{
-        const body =  event.target.value;
-        props.updateMessage(body)
-    }
-
     return (
         <div className="">
             <h1>Dialogs</h1>
@@ -33,15 +28,20 @@ const Dialogs = (props) => {
                 <div className={cls.messages}>
                     {messagesElemnts}
                     <div>
-                        <textarea className={cls.text_area_msg} ref={refTextArea} name="" id="" cols="30" rows="10" placeholder='Enter your  message'
-                                  value={state.NewMessageText} onChange={onUpdateMessageChange}></textarea>
-                      <div style={{textAlign: 'center', marginTop: '30px'}}>
-                          <button type="button" onClick={onSendMessageClick} className={cls.button_send}>Send</button>
-                      </div>
+                        <AddMessageReduxForm onSubmit={addNewMessage} />
                     </div>
+                    {/*<div>*/}
+                        {/*<textarea className={cls.text_area_msg} ref={refTextArea} name="" id="" cols="30" rows="10" placeholder='Enter your  message'*/}
+                                  {/*value={state.NewMessageText} onChange={onUpdateMessageChange}></textarea>*/}
+                      {/*<div style={{textAlign: 'center', marginTop: '30px'}}>*/}
+                          {/*<button type="button" onClick={onSendMessageClick} className={cls.button_send}>Send</button>*/}
+                      {/*</div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </div>
     )
 }
+
+
 export default Dialogs;

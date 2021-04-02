@@ -7,3 +7,11 @@
     background: #333333;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
 }
+.auth {
+    float: right;
+    color: white;
+    text-transform: uppercase;
+}
+.auth a{
+    color: white;
+}

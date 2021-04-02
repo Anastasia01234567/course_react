@@ -1,40 +1,60 @@
-import React from 'react'
+import React, {PureComponent} from 'react'
 import cls from './MyPosts.module.css';
 import Post from './Post/Post'
-// import {addPostCreateAction, updateNewPostTextCreateAction} from "../../../redux/profile-reducer";
+import PostReduxForm from "../AddPostForm";
 
-let MyPosts = (props) => {
-// debugger;
-    let state = props.profilePage;
-    let postsElements = state.posts.map( post => <Post message={post.message} likesCount={post.likesCount}/>);
-    let refElementTextArea = React.createRef();
-    let onAddPost=()=>{
-       props.addPost();
-    }
+const MyPosts = React.memo((props)=> {
+    // shouldComponentUpdate(nextProps, nextState, nextContext) {
+    //     return nextProps != this.props || nextState != this.state
+    // }
 
-    let onUpdateNewPostText = (event) =>{
-        let text = event.target.value;
-        props.updateNewPostText(text);
-    }
-    return (
-        <div>
-            My Post
-            <div className="">
-                {/*<form action="">*/}
+        let state = props.profilePage;
+        let postsElements = state.posts.map(post => <Post message={post.message} likesCount={post.likesCount}/>);
+        let onAddPost = (values) => {
+            props.addPost(values.newPostText);
+        }
+        return (
+            <div>
+                My Post
+                <div className="">
                     <div>
-                        <textarea className={cls.textarea} onChange={onUpdateNewPostText} ref={refElementTextArea} name="" id="" cols="30" rows="10" value={state.newPostText}></textarea>
+                        <PostReduxForm onSubmit={onAddPost}/>
                     </div>
-                <div className={cls.wrap_btn}>
-                    <button type="button" className={cls.btn_send} onClick={onAddPost}>Send</button>
                 </div>
-                {/*</form>*/}
+                <div className={cls.posts}>
+                    {postsElements}
+                </div>
             </div>
-            <div className={cls.posts}>
-                {postsElements}
-            </div>
-        </div>
-    )
-}
+        )
+});
+// class MyPosts extends PureComponent {
+//     // shouldComponentUpdate(nextProps, nextState, nextContext) {
+//     //     return nextProps != this.props || nextState != this.state
+//     // }
+//
+//     render() {
+//         let state = this.props.profilePage;
+//         let postsElements = state.posts.map(post => <Post message={post.message} likesCount={post.likesCount}/>);
+//         let onAddPost = (values) => {
+//             this.props.addPost(values.newPostText);
+//         }
+//         return (
+//             <div>
+//                 My Post
+//                 <div className="">
+//                     <div>
+//                         <PostReduxForm onSubmit={onAddPost}/>
+//                     </div>
+//                 </div>
+//                 <div className={cls.posts}>
+//                     {postsElements}
+//                 </div>
+//             </div>
+//         )
+//     }
+// }
+
+
 export default MyPosts;
 
 

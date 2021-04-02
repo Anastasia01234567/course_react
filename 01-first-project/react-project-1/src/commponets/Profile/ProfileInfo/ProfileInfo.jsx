@@ -1,17 +1,33 @@
 import React from 'react'
 import cls from './ProfileInfo.module.css';
+import Preloader from "../../Preloader/Preloader";
+import userPhotos from '../../../assets/images/user.png'
+import ProfileStatusWithHook from "./ProfileStatusWithHook";
 
-let ProfileInfo = () => {
+let ProfileInfo = ({profile, status, updateUserStatus}) => {
+    if (!profile) {
+        return <Preloader/>
+    }
     return (
         <div>
+            <img src={profile.photos?.large ?? userPhotos} alt=""/>
+            <ProfileStatusWithHook status={status} updateUserStatus={updateUserStatus}/>
+            <div> {profile.fullName}</div>
+            <div> {profile.aboutMe}</div>
             <div>
-                <img
-                    src="https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2019/CA-Chris-Ogonek-Picture-Controls/Media/Chris-Ogonek-Picture-Controls-Vivid.low.jpg"
-                    alt=""></img>
+                <div
+                    lassName="">Contacts
+                </div>
+                <ul>
+                    {
+                        Object.entries(profile.contacts).map(([k, v]) => {
+                            return (<li><span>{k}</span> - {v}</li>)
+                        })
+                    }
+                </ul>
             </div>
-            <div>
-                ava + desc
-            </div>
+            <div className="">lookingForAJob - {profile.lookingForAJob}</div>
+            <div className="">lookingForAJobDescription - {profile.lookingForAJobDescription}</div>
         </div>
     )
 }
