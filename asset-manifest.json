@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "//anastasia01234567.github.io/course_react/static/css/main.39f67f96.chunk.css",
+    "main.js": "//anastasia01234567.github.io/course_react/static/js/main.3f0902c0.chunk.js",
+    "main.js.map": "//anastasia01234567.github.io/course_react/static/js/main.3f0902c0.chunk.js.map",
+    "runtime-main.js": "//anastasia01234567.github.io/course_react/static/js/runtime-main.36f0f50a.js",
+    "runtime-main.js.map": "//anastasia01234567.github.io/course_react/static/js/runtime-main.36f0f50a.js.map",
+    "static/js/2.ecda0db4.chunk.js": "//anastasia01234567.github.io/course_react/static/js/2.ecda0db4.chunk.js",
+    "static/js/2.ecda0db4.chunk.js.map": "//anastasia01234567.github.io/course_react/static/js/2.ecda0db4.chunk.js.map",
+    "static/css/3.16841c85.chunk.css": "//anastasia01234567.github.io/course_react/static/css/3.16841c85.chunk.css",
+    "static/js/3.80576168.chunk.js": "//anastasia01234567.github.io/course_react/static/js/3.80576168.chunk.js",
+    "static/js/3.80576168.chunk.js.map": "//anastasia01234567.github.io/course_react/static/js/3.80576168.chunk.js.map",
+    "static/css/4.016a5ba6.chunk.css": "//anastasia01234567.github.io/course_react/static/css/4.016a5ba6.chunk.css",
+    "static/js/4.7c52815b.chunk.js": "//anastasia01234567.github.io/course_react/static/js/4.7c52815b.chunk.js",
+    "static/js/4.7c52815b.chunk.js.map": "//anastasia01234567.github.io/course_react/static/js/4.7c52815b.chunk.js.map",
+    "index.html": "//anastasia01234567.github.io/course_react/index.html",
+    "precache-manifest.1dc18a61a6b606640a9c0479d6b293f9.js": "//anastasia01234567.github.io/course_react/precache-manifest.1dc18a61a6b606640a9c0479d6b293f9.js",
+    "service-worker.js": "//anastasia01234567.github.io/course_react/service-worker.js",
+    "static/css/3.16841c85.chunk.css.map": "//anastasia01234567.github.io/course_react/static/css/3.16841c85.chunk.css.map",
+    "static/css/4.016a5ba6.chunk.css.map": "//anastasia01234567.github.io/course_react/static/css/4.016a5ba6.chunk.css.map",
+    "static/css/main.39f67f96.chunk.css.map": "//anastasia01234567.github.io/course_react/static/css/main.39f67f96.chunk.css.map",
+    "static/js/2.ecda0db4.chunk.js.LICENSE.txt": "//anastasia01234567.github.io/course_react/static/js/2.ecda0db4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36f0f50a.js",
+    "static/js/2.ecda0db4.chunk.js",
+    "static/css/main.39f67f96.chunk.css",
+    "static/js/main.3f0902c0.chunk.js"
+  ]
+}
