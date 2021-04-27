@@ -18,10 +18,15 @@ let initialState = {
             },
 
 
-        ]
+        ] as Array<FriendType>
+};
+type FriendType ={
+    id: number,
+    name: string,
+    avatar: string
 }
-
-export  const  sidebarReducer = (state = initialState, action)=>{
-
+type ActionType = null;
+export type InitialState = typeof initialState;
+export  const  sidebarReducer = (state = initialState, action:ActionType):InitialState=>{
     return state;
-}
+};

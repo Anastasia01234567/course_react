@@ -3,7 +3,6 @@ import Preloader from "../App";
 
 
  const withSuspense = (Component) => {
-     debugger
     return (props) => {
     return <React.Suspense fallback={<Preloader/>}>
             <Component {...props}/>
