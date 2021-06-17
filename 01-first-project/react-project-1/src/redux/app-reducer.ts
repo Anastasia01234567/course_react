@@ -1,40 +1,45 @@
-import {authAPI} from "../api/api";
+import {authAPI} from "../api/auth-api";
 import {getAuthUserData} from "./auth-reducer";
+import {BaseThunkType, InferActionTypes} from "./redux-store";
+import {Dispatch} from "redux";
 
 
-const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS';
-type InitialState = {
-    initialized: boolean,
-
-}
-let initialState:InitialState = {
-    initialized: false,
+// const INITIALIZED_SUCCESS = 'AN/APP/INITIALIZED_SUCCESS';
+type ActionType = InferActionTypes<typeof actions>;
+let initialState = {
+    initialized: false
 };
-export const appReducer = (state = initialState, action: ActionType):InitialState => {
+type InitialState = typeof initialState;
+// type ThunkType = BaseThunkType<ActionType>
+// type DispatchType = Dispatch<ActionType>;
+export const appReducer = (state = initialState, action: ActionType): InitialState => {
     switch (action.type) {
-        case  INITIALIZED_SUCCESS: {
+        case  'SN/APP/INITIALIZED_SUCCESS':
             return {
                 ...state,
                 initialized: true
             };
-        }
+
         default:
             return state;
     }
 };
-type ActionType = InitializedSuccessActionType;
-type InitializedSuccessActionType= {
-    type: typeof INITIALIZED_SUCCESS
+export const actions = {
+    initializedSuccess: () => ({type: 'SN/APP/INITIALIZED_SUCCESS'} as const)
 }
-// func return type settings arq InitializedSuccessActionType
-export const initializedSuccess = ():InitializedSuccessActionType => {
-    return {
-        type: INITIALIZED_SUCCESS,
-    }
-};
 
-export const initializeApp = () => (dispatch: any) => {
+// type InitializedSuccessActionType= {
+//     type: typeof INITIALIZED_SUCCESS
+// }
+// func return type settings arq InitializedSuccessActionType
+// export const initializedSuccess = ():InitializedSuccessActionType => {
+//     return {
+//         type: INITIALIZED_SUCCESS,
+//     }
+// };
+
+export const initializeApp = () => async (dispatch:any) => {
     // dispatch(getAuthUserData());
-    let promise =  dispatch(getAuthUserData());
-   Promise.all([promise]).then(() => dispatch(initializedSuccess()))
+    let promise = dispatch(getAuthUserData());
+    Promise.all([promise]).then(() => dispatch(actions.initializedSuccess()))
 };

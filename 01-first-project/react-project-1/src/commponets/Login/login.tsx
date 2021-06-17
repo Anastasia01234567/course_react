@@ -55,6 +55,7 @@ const LoginForm: React.FC<InjectedFormProps<LoginFormValuesType, LoginFormDataOw
 };
 
 const LoginReduxForm = reduxForm<LoginFormValuesType, LoginFormDataOwnerProps>({form: 'login'})(LoginForm);
+
 let mapStateToProps = (state: AppStateType):MapStatePropsType => {
     return {
         captchaUrl: state.auth.captchaUrl,

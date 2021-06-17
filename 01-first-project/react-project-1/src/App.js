@@ -41,6 +41,7 @@ class App extends React.Component {
                     <Route path='/users' render={() => <UsersContainer pageTitle={'Users container test void title'}/>}/>
                     <Route path='/login' render={() => <Login/>}/>
                 </div>
+
                 <Footer/>
             </main>
         )
