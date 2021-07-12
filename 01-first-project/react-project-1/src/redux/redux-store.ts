@@ -1,3 +1,4 @@
+import { chatReducer } from './chat-reducer';
 import {Action, applyMiddleware, combineReducers, compose, createStore} from "redux";
 import {profileReducer} from "./profile-reducer";
 import {dialogsReducer, InitialStateType} from "./dialogs-reducer";
@@ -16,14 +17,17 @@ let rootReducer = combineReducers({
     usersPage: usersReducer,
     auth: authReducer,
     form: formReducer,
-    app: appReducer
+    app: appReducer,
+    chat: chatReducer
 });
 type RootReducerType = typeof rootReducer; // (globalstate: GLOBALSTATE)=>GLOBALSTATE
 export type AppStateType = ReturnType<RootReducerType>;
-type PropertiesType<T> = T extends  {[key: string]: infer U} ? U : never;
-export type InferActionTypes<T extends {[key: string]: (...args:any[])=>any}> = ReturnType<PropertiesType<T>>
+// type PropertiesType<T> = T extends  {[key: string]: infer U} ? U : never;
+// export type InferActionTypes<T extends { [key: string]: (...args: any[]) => any }> = ReturnType<PropertiesType<T>>
+export type InferActionTypes<T> = T extends { [key: string]: (...args: any[]) => infer U } ? U : never;
 
-export type BaseThunkType  <A extends Action, R = Promise<void>> = ThunkAction<R, AppStateType, unknown, A>
+// export type BaseThunkType  <A extends Action, R = Promise<void>> = ThunkAction<R, AppStateType, unknown, A>
+export type BaseThunkType<A extends Action, R = Promise<void>> = ThunkAction<R, AppStateType, unknown, A>
 // let state: AppStateType;
 // state.auth.isAuth
 //@ts-ignore

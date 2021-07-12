@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="561fefee-6c07-4e30-ab28-24140aa9432b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/api/profile-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/api/profile-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/common/FormControl/FormControl.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/common/FormControl/FormControl.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/AddMessageForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/DialogItem/DialogItem.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/Dialogs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/DialogsContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/Message/Message.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Header/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Header/HeaderContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Login/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Login/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/AddPostForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/MyPosts/MyPosts.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/MyPosts/Post/Post.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/Profile.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileContainer.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatus.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatusWithHook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatusWithHook.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/User.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/UsersContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/UsersContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withAuthRedirect.js" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withAuthRedirect.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withSuspense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/dialogs-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/dialogs-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/profile-reducer.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/profile-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/profile-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/redux-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/redux-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-first-project/react-project-1/src/types/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-first-project/react-project-1/src/types/types.ts" afterDir="false" />
+    </list>
+    <ignored path="E:\Anastasia\react_learn\.idea\shelf/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/react_learn$Rerun_Failed_Tests.info" NAME="Rerun Failed Tests Coverage Results" MODIFIED="1616931873713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_learn$renders_learn_react_link.info" NAME="renders learn react link Coverage Results" MODIFIED="1617102484583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_learn$length_of_posts_should_be_increments.info" NAME="length of posts should be increments Coverage Results" MODIFIED="1616931926831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="493" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react_learn" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DialogsContainer</find>
+      <find>props</find>
+      <find>this.</find>
+      <find>SET_USER_PROFILE</find>
+      <find>topmenu</find>
+      <find>addPostCreateAction</find>
+      <find>setUsers</find>
+      <find>TOGGLE_IS_FOLLOWING_PROGRESS</find>
+      <find>AppStateType</find>
+      <find>pageSize</find>
+      <find>portionCount</find>
+      <find>sendMessageCreateAction</find>
+      <find>fas fa-star star-active</find>
+      <find>fas fa-star</find>
+      <find>star-active</find>
+      <find>getCaptchaUrlActionType</find>
+      <find>FollowSuccessType</find>
+      <find>setTotalUsersCount</find>
+      <find>setCurrentPage</find>
+      <find>UNFOLLOW</find>
+      <find>setUsersProfile</find>
+      <find>BaseThunkType</find>
+      <find>savePhotosSuccess</find>
+      <find>OwnPropsType</find>
+      <find>Provider</find>
+      <find>RouteComponentProps</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/Users.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.test.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/package.json" />
+        <option value="&lt;8b53278c-d8fa-41c1-960d-3f7cdc2d4647&gt;/artefact_app/admin/views/order/_form.php" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Login/login.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/Profile.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withSuspense.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/User.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/User.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-selectors.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-selectors.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatus.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/dialogs-reducer.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/sidebar-reducer.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/api/api.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/Users.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/redux-store.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileContainer.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/utils/validators/validators.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/types/types.ts" />
+        <option value="&lt;8b53278c-d8fa-41c1-960d-3f7cdc2d4647&gt;/start/style/style.css" />
+        <option value="&lt;8b53278c-d8fa-41c1-960d-3f7cdc2d4647&gt;/artefact_app/site/views/gallery/index.php" />
+        <option value="&lt;8b53278c-d8fa-41c1-960d-3f7cdc2d4647&gt;/start/js/main.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/api/users-api.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/api/api.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/api/security-api.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/App.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Preloader/Preloader.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/DialogsContainer.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withAuthRedirect.js" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/redux-store.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/app-reducer.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-reducer.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/api/auth-api.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/api/profile-api.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileInfo.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatusWithHook.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/profile-reducer.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/redux/auth-reducer.ts" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Login/login.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/common/FormControl/FormControl.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/Dialogs.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/AddMessageForm.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Navbar/Navbar.jsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/UsersContainer.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/DialogsContainer.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/App.tsx" />
+        <option value="$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withAuthRedirect.tsx" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2093" />
+    <option name="y" value="99" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commponets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commponets" type="462c0819:PsiDirectoryNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="commponets" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-project-1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="js.last.introduce.type" value="CONST" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="E:\Anastasia\react_learn\01-first-project\react-project-1\node_modules" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="E:\Anastasia\react_learn\01-first-project\react-project-1\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\hoc" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\Paginator" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\commponets\Profile\ProfileInfo" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\commponets\Users" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\redux" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\api\api.ts" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\api\security-api.ts" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\api\auth-api.ts" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\api\profile-api.ts" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\api\users-api.ts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\Paginator" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\utils" />
+      <recent name="E:\Anastasia\react_learn\01-first-project\react-project-1\src\commponets\Users" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/01-first-project" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Paginator component test.pages count is 11 but should be showed only 10" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/01-first-project/react-project-1" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.test.js" />
+      <test-names>
+        <test-name value="Paginator component test" />
+        <test-name value="pages count is 11 but should be showed only 10" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus Component (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/01-first-project/react-project-1" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatus.test.js" />
+      <test-names>
+        <test-name value="ProfileStatus Component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus Component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus Component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProfileStatus Component.status from props should be in the status" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/01-first-project/react-project-1" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatus.test.jsx" />
+      <test-names>
+        <test-name value="ProfileStatus Component" />
+        <test-name value="status from props should be in the status" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/01-first-project/react-project-1" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/01-first-project/react-project-1/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" editBeforeRun="true">
+      <package-json value="$PROJECT_DIR$/01-first-project/react-project-1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/01-first-project/react-project-1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.ProfileStatus Component" />
+      <item itemvalue="Jest.renders learn react link" />
+      <item itemvalue="Jest.ProfileStatus Component.status from props should be in the status" />
+      <item itemvalue="Jest.Paginator component test.pages count is 11 but should be showed only 10" />
+      <item itemvalue="Jest.ProfileStatus Component (1)" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.ProfileStatus Component (1)" />
+        <item itemvalue="Jest.Paginator component test.pages count is 11 but should be showed only 10" />
+        <item itemvalue="Jest.ProfileStatus Component.status from props should be in the status" />
+        <item itemvalue="Jest.ProfileStatus Component" />
+        <item itemvalue="Jest.renders learn react link" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_CLASSES,HIDE_INHERITED_FROM_OBJECT" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="561fefee-6c07-4e30-ab28-24140aa9432b" name="Default Changelist" comment="" />
+      <created>1606734321165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606734321165</updated>
+      <workItem from="1606734322259" duration="9557000" />
+      <workItem from="1607427589469" duration="5427000" />
+      <workItem from="1607503121502" duration="16070000" />
+      <workItem from="1607594863174" duration="8088000" />
+      <workItem from="1607694077750" duration="11233000" />
+      <workItem from="1607939428715" duration="9833000" />
+      <workItem from="1608039174952" duration="3473000" />
+      <workItem from="1608114984248" duration="10478000" />
+      <workItem from="1608200491120" duration="12454000" />
+      <workItem from="1608284855835" duration="3105000" />
+      <workItem from="1614848887676" duration="620000" />
+      <workItem from="1614862849232" duration="249000" />
+      <workItem from="1615030925432" duration="2731000" />
+      <workItem from="1615122624641" duration="11268000" />
+      <workItem from="1615196985684" duration="6051000" />
+      <workItem from="1615219349469" duration="4215000" />
+      <workItem from="1615279225697" duration="31000" />
+      <workItem from="1615288378665" duration="117000" />
+      <workItem from="1615469049669" duration="7000" />
+      <workItem from="1615469062231" duration="2549000" />
+      <workItem from="1615530931154" duration="614000" />
+      <workItem from="1615802267951" duration="610000" />
+      <workItem from="1616061246601" duration="599000" />
+      <workItem from="1616082950555" duration="78000" />
+      <workItem from="1616085159249" duration="599000" />
+      <workItem from="1616156227867" duration="346000" />
+      <workItem from="1616161051693" duration="9233000" />
+      <workItem from="1616246089471" duration="2133000" />
+      <workItem from="1616316302105" duration="14406000" />
+      <workItem from="1616406508187" duration="13733000" />
+      <workItem from="1616489759177" duration="13758000" />
+      <workItem from="1616571621503" duration="4247000" />
+      <workItem from="1616594531322" duration="611000" />
+      <workItem from="1616601068168" duration="7450000" />
+      <workItem from="1616674549439" duration="1850000" />
+      <workItem from="1616750669529" duration="12908000" />
+      <workItem from="1616839449865" duration="6227000" />
+      <workItem from="1616926980875" duration="2000" />
+      <workItem from="1616927201415" duration="11082000" />
+      <workItem from="1617092593528" duration="6962000" />
+      <workItem from="1617104390138" duration="6902000" />
+      <workItem from="1617175919547" duration="606000" />
+      <workItem from="1617253414123" duration="1221000" />
+      <workItem from="1617283348850" duration="1206000" />
+      <workItem from="1617357092957" duration="1202000" />
+      <workItem from="1617383215884" duration="3187000" />
+      <workItem from="1617441332290" duration="14000" />
+      <workItem from="1617453236411" duration="1012000" />
+      <workItem from="1617783128100" duration="79000" />
+      <workItem from="1618766630409" duration="4930000" />
+      <workItem from="1618816193226" duration="3982000" />
+      <workItem from="1618993990382" duration="4634000" />
+      <workItem from="1619076479743" duration="318000" />
+      <workItem from="1619090995363" duration="1268000" />
+      <workItem from="1619093331465" duration="32000" />
+      <workItem from="1619093394431" duration="1113000" />
+      <workItem from="1619094525446" duration="1840000" />
+      <workItem from="1619160768074" duration="19573000" />
+      <workItem from="1619246768746" duration="2847000" />
+      <workItem from="1619416844939" duration="16216000" />
+      <workItem from="1619539358161" duration="7421000" />
+      <workItem from="1619588626736" duration="12000" />
+      <workItem from="1619600890287" duration="13242000" />
+      <workItem from="1619640518214" duration="2812000" />
+      <workItem from="1619679066870" duration="9000" />
+      <workItem from="1619696572458" duration="930000" />
+      <workItem from="1619703684342" duration="11000" />
+      <workItem from="1620117793506" duration="1297000" />
+      <workItem from="1620128008853" duration="63000" />
+      <workItem from="1620128625194" duration="9000" />
+      <workItem from="1620128901812" duration="9458000" />
+      <workItem from="1620210717196" duration="13529000" />
+      <workItem from="1620286850249" duration="621000" />
+      <workItem from="1620288142668" duration="11116000" />
+      <workItem from="1620384344920" duration="4300000" />
+      <workItem from="1620474990601" duration="639000" />
+      <workItem from="1620911382577" duration="802000" />
+      <workItem from="1620927070576" duration="523000" />
+      <workItem from="1621245155685" duration="835000" />
+      <workItem from="1622117075677" duration="359000" />
+      <workItem from="1622117451618" duration="5419000" />
+      <workItem from="1622723110973" duration="213000" />
+      <workItem from="1622723874041" duration="2074000" />
+      <workItem from="1622799471539" duration="175000" />
+      <workItem from="1623917038392" duration="4631000" />
+      <workItem from="1624100791543" duration="876000" />
+      <workItem from="1624278157174" duration="613000" />
+      <workItem from="1624337920336" duration="598000" />
+      <workItem from="1624361107775" duration="83000" />
+      <workItem from="1624444886412" duration="9296000" />
+      <workItem from="1624463182475" duration="6985000" />
+      <workItem from="1624540565207" duration="3350000" />
+      <workItem from="1624621851560" duration="366000" />
+      <workItem from="1624731750579" duration="259000" />
+      <workItem from="1624783654563" duration="25000" />
+    </task>
+    <task id="LOCAL-00001" summary="learn 41">
+      <created>1606757778010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606757778010</updated>
+    </task>
+    <task id="LOCAL-00002" summary="learn 56">
+      <created>1608044287753</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608044287753</updated>
+    </task>
+    <task id="LOCAL-00003" summary="learn 95">
+      <created>1617384437275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617384437275</updated>
+    </task>
+    <task id="LOCAL-00004" summary="type script">
+      <created>1619547087970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619547087970</updated>
+    </task>
+    <task id="LOCAL-00005" summary="TS components or reducer">
+      <created>1623917735451</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623917735451</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ProfileStatus_Component - 2021.03.30 at 14h 25m 55s.xml">
+      <configuration name="ProfileStatus Component" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component - 2021.03.30 at 14h 31m 04s.xml">
+      <configuration name="ProfileStatus Component" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component - 2021.03.30 at 14h 35m 25s.xml">
+      <configuration name="ProfileStatus Component" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component_status_from_props_should_be_in_the_status - 2021.03.30 at 14h 37m 22s.xml">
+      <configuration name="ProfileStatus Component.status from props should be in the status" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component_status_from_props_should_be_in_the_status - 2021.03.30 at 14h 39m 29s.xml">
+      <configuration name="ProfileStatus Component.status from props should be in the status" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component_status_from_props_should_be_in_the_status - 2021.03.30 at 14h 39m 55s.xml">
+      <configuration name="ProfileStatus Component.status from props should be in the status" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component_status_from_props_should_be_in_the_status - 2021.03.30 at 14h 40m 08s.xml">
+      <configuration name="ProfileStatus Component.status from props should be in the status" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component_status_from_props_should_be_in_the_status - 2021.03.30 at 14h 43m 26s.xml">
+      <configuration name="ProfileStatus Component.status from props should be in the status" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="Paginator_component_test_pages_count_is_11_but_should_be_showed_only_10 - 2021.03.30 at 15h 51m 54s.xml">
+      <configuration name="Paginator component test.pages count is 11 but should be showed only 10" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="ProfileStatus_Component_(1) - 2021.03.30 at 15h 52m 32s.xml">
+      <configuration name="ProfileStatus Component (1)" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="400137000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" x="809" y="82" width="301" height="875" id="Project" order="0" sideWeight="0.48929664" weight="0.23614073" />
+      <window_info id="Favorites" order="1" sideWeight="0.5107034" side_tool="true" weight="0.1913646" />
+      <window_info id="Structure" order="2" sideWeight="0.5107034" side_tool="true" weight="0.1913646" />
+      <window_info x="-1156" y="129" width="958" height="1008" id="Run" order="3" sideWeight="0.4989339" type="WINDOWED" weight="0.32914287" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49947917" weight="0.23293608" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" x="22" y="298" width="1876" height="444" id="Version Control" order="8" weight="0.27193934" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" weight="0.18093175" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32914287" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" sideWeight="0.49714285" visible="true" weight="0.1684435" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50285715" side_tool="true" weight="0.1684435" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" x="809" y="82" width="301" height="875" id="Project" order="0" sideWeight="0.48929664" weight="0.23347548" />
+      <window_info id="Favorites" order="1" sideWeight="0.5107034" side_tool="true" weight="0.1913646" />
+      <window_info id="Structure" order="2" sideWeight="0.5107034" side_tool="true" weight="0.1913646" />
+      <window_info x="-1156" y="129" width="958" height="1008" id="Run" order="3" sideWeight="0.4989339" type="WINDOWED" weight="0.32914287" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" sideWeight="0.49947917" weight="0.23293608" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" x="22" y="298" width="1876" height="444" id="Version Control" order="8" weight="0.49404117" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989339" visible="true" weight="0.18093175" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.31428573" />
+      <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32914287" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49714285" weight="0.1684435" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50285715" side_tool="true" weight="0.1684435" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../open_server/OSPanel/domains/react/resources/js/components/Home/HomeContainer.jsx" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="learn 41" />
+    <MESSAGE value="learn 56" />
+    <MESSAGE value="learn 95" />
+    <MESSAGE value="type script" />
+    <MESSAGE value="TS components or reducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="TS components or reducer" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/User.jsx" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/react-router-dom/withRouter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-selectors.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Header/HeaderContainer.js" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/common/FormControl/FormControl.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatus.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Preloader/Preloader.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/utils/objects-helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="212" column="17" selection-start-line="212" selection-start-column="17" selection-end-line="212" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/DialogsContainer.jsx" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/Dialogs.jsx" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withSuspense.js" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/Paginator/Paginator.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/Users.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/api/security-api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/axios/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="139" column="34" selection-start-line="139" selection-start-column="33" selection-end-line="139" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/api/auth-api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/api/users-api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/redux-thunk/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/users-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="85" selection-start-line="85" selection-end-line="85" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/api/api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/Profile.jsx" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileStatusWithHook.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileInfo/ProfileInfo.jsx" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/profile-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/types/types.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/api/profile-api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/redux-store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="30" column="29" lean-forward="true" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/app-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/auth-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/redux/dialogs-reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="52" column="15" lean-forward="true" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/@types/redux-form/lib/reduxForm.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="70" column="52" selection-start-line="70" selection-start-column="52" selection-end-line="70" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/@types/redux-form/lib/Field.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/utils/validators/validators.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/AddMessageForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/Dialogs.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/common/FormControl/FormControl.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/typescript/lib/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11910" column="45" selection-start-line="11910" selection-start-column="40" selection-end-line="11910" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="428" column="10" selection-start-line="428" selection-start-column="10" selection-end-line="428" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Navbar/Navbar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Dialogs/DialogsContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="64" column="29" lean-forward="true" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Profile/ProfileContainer.jsx" />
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Users/UsersContainer.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1891">
+          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/commponets/Login/login.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2292#2391#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/node_modules/@types/react-redux/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="203" column="23" selection-start-line="203" selection-start-column="8" selection-end-line="203" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-first-project/react-project-1/src/hoc/withAuthRedirect.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

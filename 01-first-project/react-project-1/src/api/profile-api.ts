@@ -5,15 +5,15 @@ type SavePhotosResponseDataType={
 }
 export const profileAPI = {
     getProfile(userId: number) {
-        return instances.get<ResponseType<ProfileType>>(`profile/${userId}`).then(res => res.data)
+        return instances.get<ProfileType>(`profile/${userId}`).then(res => res.data)
     },
     getStatus(userId: number) {
-        return instances.get<ResponseType<string>>(`profile/status/${userId}`).then(res => res.data)
+        return instances.get<string>(`profile/status/${userId}`).then(res => res.data)
     },
     updateStatus(status: string) {
-        return instances.put<ResponseType>(`profile/status/`, {status: status}).then(res => res.data)
+        return instances.put<ResponseType<{status: string | null}>>(`profile/status/`, {status: status}).then(res => res.data)
     },
-    savePhotos(file: any) {
+    savePhotos(file: File) {
         let formData = new FormData();
         formData.append('image', file);
         return instances.put<ResponseType<SavePhotosResponseDataType>>('profile/photo', formData, {

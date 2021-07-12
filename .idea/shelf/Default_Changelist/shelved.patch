@@ -1,0 +1,45 @@
+Index: 01-first-project/react-project-1/src/redux/redux-store.js
+===================================================================
+--- 01-first-project/react-project-1/src/redux/redux-store.js	(revision 954163e0fbd28fc306772b6cf2ce83c4e14dd0fc)
++++ 01-first-project/react-project-1/src/redux/redux-store.ts	(date 1619433160239)
+@@ -4,23 +4,30 @@
+ import {sidebarReducer} from "./sidebar-reducer";
+ import {usersReducer} from "./users-reducer";
+ import {authReducer} from "./auth-reducer";
+-import  thunkMiddleware from "redux-thunk";
+-import { reducer as formReducer } from 'redux-form';
++import thunkMiddleware from "redux-thunk";
++import {reducer as formReducer} from 'redux-form';
+ import {appReducer} from "./app-reducer";
+ 
+-let reducers = combineReducers({
+-    profilePage :  profileReducer,
+-    dialogsPage : dialogsReducer,
+-    sidebar : sidebarReducer,
++let rootReducer = combineReducers({
++    profilePage: profileReducer,
++    dialogsPage: dialogsReducer,
++    sidebar: sidebarReducer,
+     usersPage: usersReducer,
+     auth: authReducer,
+     form: formReducer,
+     app: appReducer
+ });
+-     const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+- const store = createStore(reducers, composeEnhancers(applyMiddleware(thunkMiddleware)));
++type RootReducerType = typeof rootReducer; // (globalstate : AppSateType)=>AppSateType
++export type AppStateType = ReturnType<RootReducerType>
++let state: AppStateType;
++// state.dialogsPage.dialogs connect in global state
++
++// @ts-ignore
++const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
++const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunkMiddleware)));
+ // let store = createStore(reducers, applyMiddleware(thunkMiddleware));
+ 
+-window.store = store;
++// @ts-ignore
++window._store_ = store;
+ 
+ export default store;
+\ No newline at end of file

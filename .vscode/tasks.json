@@ -1,0 +1,22 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "01-first-project/react-project-1/",
+			"problemMatcher": [],
+			"label": "npm: start - 01-first-project/react-project-1",
+			"detail": "react-scripts start"
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"path": "01-first-project/react-project-1/",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test - 01-first-project/react-project-1",
+			"detail": "react-scripts test"
+		}
+	]
+}

@@ -10,7 +10,7 @@ let initialState = {
     initialized: false
 };
 type InitialState = typeof initialState;
-// type ThunkType = BaseThunkType<ActionType>
+type ThunkType = BaseThunkType<ActionType>
 // type DispatchType = Dispatch<ActionType>;
 export const appReducer = (state = initialState, action: ActionType): InitialState => {
     switch (action.type) {
@@ -38,7 +38,7 @@ export const actions = {
 //     }
 // };
 
-export const initializeApp = () => async (dispatch:any) => {
+export const initializeApp = ():ThunkType => async (dispatch, getState) => {
     // dispatch(getAuthUserData());
     let promise = dispatch(getAuthUserData());
     Promise.all([promise]).then(() => dispatch(actions.initializedSuccess()))

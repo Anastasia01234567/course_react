@@ -1,13 +1,7 @@
-const SEND_MESSAGE = 'samurai-network/SEND-MESSAGE';
-type DialogType = {
-    id: number
-    name: string
-    avatar: string
-}
-type MessageType = {
-    id: number
-    message: string
-}
+import { MessageType, DialogType } from './../types/types';
+import { InferActionTypes } from "./redux-store";
+
+
 let initialState = {
     messages:
         [
@@ -28,10 +22,11 @@ let initialState = {
 };
 
 export  type InitialStateType = typeof initialState;
-type ActionType = SendMessageActionType;
+type ActionType = InferActionTypes<typeof actions>;
+
 export const dialogsReducer = (state = initialState, action: ActionType): InitialStateType => {
     switch (action.type) {
-        case SEND_MESSAGE: {
+        case 'SN/DIALOG/SEND-MESSAGE': {
             let body = action.newMessageBody;
             return {
                 ...state,
@@ -42,14 +37,12 @@ export const dialogsReducer = (state = initialState, action: ActionType): Initia
             return state;
     }
 };
-type SendMessageActionType = {
-    type: typeof SEND_MESSAGE,
-    newMessageBody: string
-}
 
-export const sendMessageCreateAction = (newMessageBody: string): SendMessageActionType => {
-    return {
-        type: SEND_MESSAGE,
-        newMessageBody
-    }
-};
+
+export const actions = {
+    sendMessage: (newMessageBody: string)=> ({
+            type: 'SN/DIALOG/SEND-MESSAGE',
+            newMessageBody
+    } as const)
+}
+// export default dialogsReducer;

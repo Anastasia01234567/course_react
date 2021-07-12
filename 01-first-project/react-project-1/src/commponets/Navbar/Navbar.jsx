@@ -20,7 +20,7 @@ let Navbar = (props)=>{
             <div className={cls.item}><a href="">Settings</a></div>
 
             <div>
-                <Friends friends={props.state.friends}/>
+                {/*<Friends friends={props.state.friends}/>*/}
             </div>
         </nav>
     )
